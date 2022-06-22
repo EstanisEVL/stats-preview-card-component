@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Inter', sans-serif; }
+
+@media only screen and (max-width: 375px) {
+  .main {
+    background-color: #090b1a;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center; }
+    .main .card {
+      margin-top: 100px;
+      margin-bottom: 100px;
+      max-width: 88%;
+      background-color: #1b1938;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      border-radius: 6px;
+      overflow: hidden;
+      box-shadow: 0px 10px 20px -10px rgba(27, 25, 56, 0.9);
+      -webkit-box-shadow: 0px 10px 20px -10px rgba(27, 25, 56, 0.9);
+      -moz-box-shadow: 0px 10px 20px -10px rgba(27, 25, 56, 0.9); }
+    .main .card__image {
+      background-color: #aa5cdb;
+      position: relative; }
+      .main .card__image .img--mobile {
+        display: block;
+        width: 100%;
+        mix-blend-mode: multiply; }
+      .main .card__image .img--desktop {
+        display: none; }
+      .main .card__image .overlay {
+        background-color: #aa5cdb;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0.25; }
+    .main h1 {
+      max-width: 90%;
+      text-align: center;
+      color: white; }
+      .main h1 span {
+        color: #aa5cdb; }
+    .main p {
+      max-width: 85%;
+      color: rgba(255, 255, 255, 0.75);
+      text-align: center;
+      line-height: 25px; }
+    .main .stat__container {
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 40px; }
+      .main .stat__container .stat__container--box {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center; }
+        .main .stat__container .stat__container--box h3 {
+          color: white; }
+        .main .stat__container .stat__container--box h4 {
+          margin-top: 5px;
+          color: rgba(255, 255, 255, 0.6);
+          text-transform: uppercase;
+          font-family: 'Lexend Deca', sans-serif;
+          font-size: 12px;
+          font-weight: normal; } }
+
+.attribution {
+  font-size: 11px;
+  text-align: center; }
+  .attribution a {
+    color: #3e52a3; }

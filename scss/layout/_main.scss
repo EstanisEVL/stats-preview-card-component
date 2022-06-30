@@ -82,7 +82,7 @@
     background-color: $main-bg;
     @include flexbox(flex, row, nowrap, center, center);
     .card{
-        margin-top: 180px;
+        margin-top: 160px;
         margin-bottom: 180px;
         max-width: 80%;
         background-color: $card-bg;
@@ -114,11 +114,11 @@
             }
         }
         .card__text{
-            // @include flexbox(flex, column, nowrap, center, center);
+            margin-left: 75px;
+            margin-right: 100px;
             h1{
-                // margin-top: 50px;
-                // max-width: 75%;
-                // text-align: left;
+                margin-top: 70px;
+                margin-bottom: 25px;
                 font-size: $h1-size;
                 color: $main-heading-stats;
                 span{
@@ -126,23 +126,24 @@
                 }
             }
             p{
-                // margin-top: 30px;
-                // padding-right: 40px;
-                // max-width: 75%;
+                margin-right: 50px;
+                margin-bottom: 50px;
                 color: $main-p;
-                // text-align: left;
-                line-height: 25px;
+                font-size: $p-size;
+                line-height: 30px;
+                text-align: left;
             }
             .stat__container{
-                // @include flexbox(flex, row, nowrap, flex-start, stretch);
-                margin-bottom: 40px;
+                @include flexbox(flex, row, nowrap, space-between, center);
+                margin-right: 70px;
+                margin-bottom: 50px;
                 .stat__container--box{
-                    // @include flexbox(flex, column, nowrap, center, stretch);
                     h3{
+                        margin-bottom: 10px;
                         color: $main-heading-stats;
+                        font-size: $h3-size;
                     }
                     h4{
-                        // margin-top: 5px;
                         color: $stat-heading;
                         text-transform: uppercase;
                         font-family: 'Lexend Deca', sans-serif;

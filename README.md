@@ -26,11 +26,11 @@ Users should be able to:
 
 Desktop:
 
-![](./Desktop Frontend Mentor Stats preview card component.png)
+![](Desktop-Frontend-Mentor-Stats-preview-card-component.png)
 
 Mobile:
 
-![](./Mobile Frontend Mentor Stats preview card component.png)
+![](Mobile-Frontend-Mentor-Stats-preview-card-component.png)
 
 ### Links
 

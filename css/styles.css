@@ -76,9 +76,9 @@ body {
           flex-wrap: nowrap;
           justify-content: center;
           align-items: center; }
-          .main .card__text .stat__container .stat__container--box h3 {
+          .main .card__text .stat__container .stat__container--box h2 {
             color: white; }
-          .main .card__text .stat__container .stat__container--box h4 {
+          .main .card__text .stat__container .stat__container--box h3 {
             margin-top: 5px;
             color: rgba(255, 255, 255, 0.6);
             text-transform: uppercase;
@@ -150,11 +150,11 @@ body {
         align-items: center;
         margin-right: 70px;
         margin-bottom: 50px; }
-        .main .card__text .stat__container .stat__container--box h3 {
+        .main .card__text .stat__container .stat__container--box h2 {
           margin-bottom: 10px;
           color: white;
           font-size: 24px; }
-        .main .card__text .stat__container .stat__container--box h4 {
+        .main .card__text .stat__container .stat__container--box h3 {
           color: rgba(255, 255, 255, 0.6);
           text-transform: uppercase;
           font-family: 'Lexend Deca', sans-serif;

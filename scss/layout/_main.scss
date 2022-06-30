@@ -59,10 +59,10 @@
                 margin-bottom: 40px;
                 .stat__container--box{
                     @include flexbox(flex, column, nowrap, center, center);
-                    h3{
+                    h2{
                         color: $main-heading-stats;
                     }
-                    h4{
+                    h3{
                         margin-top: 5px;
                         color: $stat-heading;
                         text-transform: uppercase;
@@ -138,12 +138,12 @@
                 margin-right: 70px;
                 margin-bottom: 50px;
                 .stat__container--box{
-                    h3{
+                    h2{
                         margin-bottom: 10px;
                         color: $main-heading-stats;
                         font-size: $h3-size;
                     }
-                    h4{
+                    h3{
                         color: $stat-heading;
                         text-transform: uppercase;
                         font-family: 'Lexend Deca', sans-serif;
